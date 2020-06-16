@@ -38,12 +38,8 @@
         <fieldset>
         <legend>Name for Order</legend>
             <div>
-                <label for="first_name">First Name</label>
-                <input id="first_name" name="first_name" placeholder="First Name"/>
-            </div>
-            <div>
-                <label for="last_name">Last Name</label>
-                <input id="last_name" name="last_name" placeholder="Last Name"/>
+                <label for="name_order">Name</label>
+                <input id="name_order" name="name_order"/>
             </div>
         </fieldset>
         <fieldset>
@@ -55,5 +51,39 @@
     </fieldset>
     <fieldset>
     <legend>Credit Card Payment</legend>
-    </fieldset>        
+        <fieldset>
+        <legend>Name</legend>
+            <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" required/>
+            </div>    
+        </fieldset>
+        <fieldset>
+        <legend>Email</legend>   
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" required/>
+            </div>
+        </fieldset>
+        <fieldset>
+        <legend>Card Number</legend>   
+            <div>
+                <label for="ccn">Credit Card Number</label>
+                <input id="ccn" type="text" inputmode="numeric" maxlength="19" required/>
+            </div>
+        </fieldset>
+        <fieldset>
+        <legend>Expiration Date</legend>  
+            <div>
+                <input id="expiry" type="text" class="edate"  name="expiry" maxlength="4" required/>
+            </div>
+        </fieldset>
+        <fieldset>
+        <legend>Security Code</legend>
+            <div>
+                <input id="sc" type="text" class="scode"  name="secode" maxlength="3" required/>
+            </div>    
+        </fieldset>
+    </fieldset>
+    <button type="submit">Submit</button>      
 </form>
