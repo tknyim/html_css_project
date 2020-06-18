@@ -1,0 +1,39 @@
+<style>
+    h1{
+        color:blue;
+    }
+    h2{
+        color:rgb(45, 62, 156);
+        text-decoration:underline;
+    }
+    section{
+        padding:10px;
+        border-radius:4px;
+        background: rgb(186, 206, 248);
+        margin:4px
+    }
+    body{
+        background-color: rgb(141, 207, 228);
+    }
+    div{
+        color:rgb(23, 97, 156);
+    }
+    p{
+        color:rgb(53, 84, 177);
+    }
+    li{
+        color:rgb(43, 67, 199);
+    }
+    .pro{
+        background:rgb(133, 141, 184);
+        border:1px solid rgb(62, 77, 121);
+    }
+    .con{
+        color:rgb(137, 183, 221);
+        border:20px solid rgb(60, 68, 94);
+    }
+    .history{
+        color:red;
+        border:10x solid green;
+    }
+</style>

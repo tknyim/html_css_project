@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Template</title>
+        <style>
+            .header {
+                display: flex;
+                justify-content: space-between;
+                padding:10px;
+                margin:20px;
+                /* background:red */
+            }
+            .font{
+                font-family: sans-serif;
+            }
+            nav{
+                display: inline-block;
+            }
+            a:link{
+                margin: 5px;
+                text-decoration: none;
+            }
+            a:visited{
+                color:black;
+                
+            }
+            /* div {
+                position: relative;
+                
+            } */
+            .big{
+                font-size: 32px;
+                margin:0px;
+            }
+            .banner {
+               display: flex;
+               justify-content: space-around;
+               /* flex-direction: row; */
+               padding:10px;
+               margin:20px;
+               /* background: blue; */
+           }
+           .fyba{
+               text-align: center;
+               /* background:orange; */
+               margin: 20px;
+           }
+           .apptcell{
+               display: flex;
+               justify-content: space-evenly;
+               background: rgb(255, 255, 255);
+               padding: 20px 10px;
+               margin: 20px;
+               
+           }
+           .apptcell div {
+               justify-content: flex-start;
+               display: flex;
+               background: rgb(255, 255, 255);
+               height: 138px;
+               box-shadow: 10px 10px 5px rgb(190, 190, 190);
+
+           }
+           /* .apptcell > div {
+                flex-direction: row;
+                justify-content: flex-start;
+                background: orange;
+                margin:10px;
+                padding:40px;
+                font-size: 20px; */
+           /* } */
+            .appt {
+                /* flex-direction: column; */
+                background: rgb(255, 255, 255);
+                margin: 0px;
+                padding: 10px;
+                
+                
+           }
+           .appt:hover {
+                background-color: orange;
+                /* padding-top: 19px;
+                margin: 10px; */
+                position: relative;
+                /* top:1px; */
+           }
+           .card {
+                padding:20px;
+                border-radius: 6px;
+                background:white;            
+                box-shadow: 10px 10px 5px rgb(190, 190, 190);
+                margin:2px 10px;
+                min-width:100px;
+                max-width:200px;
+                /* flex-basis: 100%; */
+           }
+           .ouservice{
+               text-align: center;
+               /* background: yellow; */
+           }
+           .services {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                background: rgb(255, 255, 255);
+                /* margin: 20px; */
+                /* padding: 0; */
+            }
+        </style>
+    </head>
+    <body> 
+        <div class="header">
+            <label><strong>CareME.</strong></label>
+            <nav>
+                    <a href="#">Primary Care </a>
+                    <a href="#">Urgent Care </a>
+                    <a href="#">Our Service </a>
+                    <a href="#">Contact </a>
+                    <a href="#">Locations </a>
+                    <a href="#">Contact </a>  
+            </nav>
+            <a href="#"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 2.33.05 PM.png" width=80/></a>
+        </div>
+        <div class="font">
+            <div class="banner">
+                <div>
+                    <h1>Providing Quality Care with Patience</h1>
+                    <p>The greatest asset in any organisation should be its people. We make sure it is. </p>
+                    <a href="#"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 2.29.38 PM.png" width=150/></a>
+                </div>
+                <img src="/Users/TK/Desktop/temphoto.png" width=500/>
+            </div>
+            <div>
+                <div class="fyba">
+                        <p>Find Your Best Appointment</p>
+                        <p class="big"><strong>an Appointment</strong></p>
+                </div>
+                <div class="apptcell">
+                    <div>
+                        <p class="appt"><strong>Child Immunisations</strong> <br>Child injections </p>
+                        <p class="appt"><strong>Cytology</strong> <br>Smear test </p>
+                        <p class="appt"><strong>PST to Book</strong><br>Face to face appointments <a href="#"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 1.53.24 PM.png"/></a></p>
+                        <p class="appt"><strong>Phlebotomy </strong><br>Blood test </p>
+                        <a href="#"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 1.52.10 PM.png" width="150"/></a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="ouservice">
+                <p>Our services</p>
+                <p class="big"><strong>Friendlier Care Experience</strong></p>
+            </div>
+            <div class="services">
+                <p class="card"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 1.50.23 PM.png"><br><strong>No rush appointments</strong><br>Raising babies is a tough job. We take the time to answer your questions.</p>
+                <p class="card"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 1.50.35 PM.png"><br><strong>Minimal wait times</strong><br>Your doctor's elves will come grab you and your precious ones for your appointment</p>
+                <p class="card"><img src="/Users/TK/Desktop/Screen Shot 2020-06-18 at 1.51.38 PM.png"><br><strong>Aligned with your baby's health</strong><br>Keeping you healthy Doctors who spend time with you, for when you don need to visit us</p>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
